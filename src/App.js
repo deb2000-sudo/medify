@@ -8,7 +8,7 @@ const App = () => {
     <div>
       <CssBaseline>
         <Outlet />
-        <h1>This is Medify</h1>
+        {/* <h1>This is Medify</h1> */}
         <AppDownload/>
         <Footer/>
       </CssBaseline>

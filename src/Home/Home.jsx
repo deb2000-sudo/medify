@@ -1,8 +1,10 @@
+import FAQ from "../components/Sections/FAQ/FAQ";
+import {Box} from '@mui/material';
 const Home=()=>{
 return(
-    <div>
-        <h1>This is home page</h1>
-    </div>
+    <Box>
+        <FAQ/>
+    </Box>
 )
 }
 
