@@ -4,11 +4,12 @@ import Ourfamilies from "../components/Sections/OurFamilies/Ourfamilies";
 import Blogs from "../components/Sections/Blogs/Blogs";
 import Patientcaring from "../components/Sections/PatientCaring/Patientcaring";
 import Specialist from "../components/Sections/Specialist/Specialist";
-import Specialistcard from "../components/SpecialistCard/Specialistcard";
 import Specialization from "../components/Sections/Specialization/Specialization";
+import Offers from "../components/Sections/Offers/Offers";
 const Home=()=>{
 return(
     <Box>
+        <Offers/>
         <Specialization/>
         <Specialist/>
         <Patientcaring/>
