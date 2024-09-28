@@ -6,9 +6,13 @@ import Patientcaring from "../components/Sections/PatientCaring/Patientcaring";
 import Specialist from "../components/Sections/Specialist/Specialist";
 import Specialization from "../components/Sections/Specialization/Specialization";
 import Offers from "../components/Sections/Offers/Offers";
+import Navbar from "../components/Navbar/Navbar";
 const Home=()=>{
 return(
     <Box>
+        <Box>
+            <Navbar/>
+        </Box>
         <Offers/>
         <Specialization/>
         <Specialist/>
