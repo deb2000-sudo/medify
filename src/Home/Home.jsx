@@ -9,6 +9,7 @@ import Offers from "../components/Sections/Offers/Offers";
 import Navbar from "../components/Navbar/Navbar";
 import Heroslider from "../components/HeroSlider/Heroslider";
 import Heroservice from "../components/HeroServices/Heroservice"
+import SearchHospital from "../components/SearchHospital/SearchHospital";
 const Home = () => {
   return (
     <Box>
@@ -32,6 +33,7 @@ const Home = () => {
             spacing={10}
             boxShadow="0 0 12px rgba(0,0,0,0.1)"
           >
+            <SearchHospital/>
             <Heroservice/>
           </Stack>
         </Container>
